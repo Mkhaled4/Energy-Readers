@@ -1,0 +1,81 @@
+# ===== Java =====
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.log
+hs_err_pid*
+replay_pid*
+
+# Build output (Maven / Gradle)
+target/
+build/
+out/
+bin/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# ===== Eclipse =====
+.metadata/
+.project
+.classpath
+.settings/
+.loadpath
+.recommenders/
+.factorypath
+.externalToolBuilders/
+*.launch
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.springBeans
+.sts4-cache/
+.apt_generated/
+.apt_generated_test/
+
+# ===== C =====
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+*.so
+*.so.*
+*.dll
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Dependency files
+*.d
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+# ===== Measurement output =====
+*.csv
